@@ -23,7 +23,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=olympus BUILD_ID=FRG83G BUILD_DISPL
 #PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_vision_defconfig
 
 # Extra Star overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/star
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/olympus
 
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
