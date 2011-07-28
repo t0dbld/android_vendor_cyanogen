@@ -46,7 +46,7 @@ else
             ro.modversion=CyanogenMod-7.1.0-RC1-Olympus
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-Olympus-1
+            ro.modversion=CyanogenMod-7.1.0-RC1-Olympus-(shell date +%m%d%Y)
     endif
 endif
 
