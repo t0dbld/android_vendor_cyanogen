@@ -22,14 +22,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=olympus BUILD_ID=FRG83G BUILD_DISPL
 #PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_DIR=kernel-msm
 #PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_vision_defconfig
 
-# Extra Star overlay
+# Extra Olympus overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/olympus
 
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
-
-# Build GanOptimizer
-PRODUCT_PACKAGES += GanOptimizer
 
 # Broadcom FM radio
 #$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
