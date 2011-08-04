@@ -25,7 +25,9 @@ PRODUCT_SPECIFIC_DEFINES = WEBCORE_ACCELERATED_SCROLLING=true
 #PRODUCT_SPECIFIC_DEFINES += TARGET_KERNEL_CONFIG=cyanogen_olympus_defconfig
 
 # Extra Olympus overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/olympus
+PRODUCT_PACKAGE_OVERLAYS += \
+	vendor/cyanogen/overlay/olympus \
+	vendor/cyanogen/overlay/qhd
 
 # Add the Torch app
 #PRODUCT_PACKAGES += Torch
